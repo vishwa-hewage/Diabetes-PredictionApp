@@ -1,3 +1,4 @@
+# Set the matplotlib backend to use Agg (non-interactive) for Streamlit Cloud
 import matplotlib
 matplotlib.use('Agg')
 
@@ -147,4 +148,5 @@ elif page == "Predict Diabetes":
 # Add a footer
 st.sidebar.markdown("---")
 st.sidebar.info("Made by vishwa")
+
 st.sidebar.warning("This is for educational purposes only. Always consult a doctor for medical advice!")
